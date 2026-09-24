@@ -1,0 +1,11 @@
+I have connect my VS Code to my gitHub.
+
+Here are some needed comand
+
+git add vs_code_connect_to_git
+
+git status
+
+git commit
+
+git push
