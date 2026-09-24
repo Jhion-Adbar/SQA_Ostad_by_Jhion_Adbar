@@ -8,4 +8,6 @@ git status
 
 git commit
 
+git commit -m "Add vs_code_connect_to_git folder with test files"
+
 git push
