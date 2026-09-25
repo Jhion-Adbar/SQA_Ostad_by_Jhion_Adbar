@@ -1,18 +1,18 @@
 I have connect my VS Code to my gitHub.
 
-Here are some needed comand
-
-git add vs_code_connect_to_git
-
+## How to add file in git by VS_CODE
+git add "FILE NAME"
 git status
-
 git commit
-
-git commit -m "Add vs_code_connect_to_git folder with test files"
-
+git commit -m "FILE NAME" folder with test files"
 git push
 
+## Since you modified "FILE NAME" just need to stage → commit → push the change.
+git add FOLDER NAME/ FILE NAME.txt
+git status
+git commit -m "Update FILE NAME.txt"
+git push
 
+## local copy and GitHub are now different.
 git pull 
-
 git status
