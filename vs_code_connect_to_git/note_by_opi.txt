@@ -1,5 +1,5 @@
 I have connect my VS Code to my gitHub.
-
+#######################################################################################################
 ## To create a new Folder and new FILE in gitHub using VS CODE in Powershell Terminal
 #let check command for new FOLDER
   New-Item [ Folder Name ] -ItemType Directory 
@@ -12,12 +12,17 @@ I have connect my VS Code to my gitHub.
 ## To create a new file in the folder in gitHub using VS CODE in Powershell Terminal
 #let check command for cheate new FILE under a FOLDER
   New-Item [Folder Name ] \ [ File Name ].txt -ItemType File
+################################################################################################################
 
 ## How to add file in git by VS_CODE
-  git add "FILE NAME"
-  git status
-  git commit
-  git commit -m "FILE NAME" folder with test files"
+  git add  . => it add everything
+  
+  git add [ FILE NAME ] => it add specific file or folder.
+  git status => it show the status of branch.
+  
+  git commit -m "[ FOLDER NAME ] folder with test files" => This commit contains the [Folder Name] folder and some test files.
+  git commit -m "Add [ FOLDER NAME ] folder and read.txt" =>  This commit specifically adds the [Folder Name] folder and the file [File Name.txt].                      
+  
   git push
 
 ## Since you modified "FILE NAME" just need to stage → commit → push the change.
