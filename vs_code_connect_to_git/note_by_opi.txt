@@ -1,5 +1,8 @@
 I have connect my VS Code to my gitHub.
 
+## To create a new file in gitHub using VS CODE in Powershell Terminal
+#let check command 
+
 ## How to add file in git by VS_CODE
 git add "FILE NAME"
 git status
